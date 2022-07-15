@@ -1,0 +1,365 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+            /* ***********************************************
+                   NAV BAR STYLING STAR HERE 
+            ***********************************************          */
+.section__head{
+    width: 70%;
+    margin: 2% 15%;
+}   
+.nav__parent{
+    display: flex;
+}
+.nav__child__one{
+    display: flex;
+}
+.nav__child__2{
+    display: flex;
+    list-style-type: none;
+    margin-top: 1%; 
+}
+.nav__child__2 li{
+    margin: 0% 5%;
+    font-size: 15px ;
+}
+.nav__child__2 li:hover{
+    text-decoration: underline;
+    margin-top: 1%;
+    color: red;
+}
+.nav__child__two{
+    margin-left: 45%;
+}
+            /* ***********************************************
+                   NAV BAR STYLING END HERE 
+            ***********************************************       */
+            /* ***********************************************
+                   NAV BODY STYLING STAR HERE 
+            ***********************************************       */
+.lasrsection{
+    display: flex;
+    width: 100%;
+}
+.boder{
+    border: 2px solid #f5e6e1;                                                              
+    width: 95%;
+}
+.nav__body{
+    background-image: url('image.jpg');
+    background-size: cover;
+    width: 98%;
+    height: 80vh;
+    margin: 1%;
+}
+.nav__content{
+     padding: 15% 9%; 
+}
+.trend{
+    /* display: flex; */
+    color: red;
+}
+/* .line{ */
+    /* display:; */
+    /* color: rebeccapurple; */
+    /* width: 31%; */
+    
+/* } */
+.nav__para{
+/* .line p{
+    border: 1px solid red;
+    width: 10%; 
+    height: 10px; */
+    /* } */
+    list-style-type: none;
+    color: red;
+    font-size: 15px;
+}
+.nav__h1{
+    font-size: 50px;
+    width: 60%;
+}
+.nav__para__two{
+    margin-top: 3%;
+    font-size: 15px;
+    /* text-decoration: underline; */
+    /* text-decoration-line:var(5%); */
+    text-decoration: underline;
+    text-decoration-style:solid;
+}
+.left__icons{
+    background-image: url('./lift.jpg');
+    width: 3%;
+    height: 80vh; 
+}
+.right__icons{
+    background-image: url('./right.jpg');
+    width: 3%;
+    margin-top: -3%;
+}
+            /* ***********************************************
+                   NAV BODY STYLING END HERE 
+            ***********************************************       */
+
+            /* ***********************************************
+                   NAV images STYLING start HERE 
+            ***********************************************       */
+.nav__images{
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+}
+.image__box{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0% auto;
+    height: auto;
+    margin-top:  5%;
+}
+.box__one{
+    background-image:  url('imgaes/image9.jpg') ;
+    /* background-size: cover; */
+    height: 73vh; 
+    width:40%; 
+}
+.box__1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.box__two{
+    background-image:  url('imgaes/image10.jpg') ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30vh;
+    width: 40%;
+}
+.box__2{
+    background-image:  url('box.jpg') ;
+    /* background-size: cover; */
+    background-color:darkcyan;
+    height: 30vh; 
+    width:50%; 
+
+}
+/* .box__3{ */
+    /* background-image:  url('imgaes/image13.jpg') ; */
+
+/* } */
+
+
+
+            /* ***********************************************
+                   NAV images STYLING END HERE 
+            ***********************************************       */
+
+
+
+
+
+
+            /* ***********************************************
+                   NAV trending section STYLING start HERE 
+            ***********************************************       */
+            
+.trend__sect{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+.div__imges{
+    display: flex;
+    width: 80%;
+    margin: 0% auto;
+}
+.div__para{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 11px;
+    text-decoration:underline;
+
+} 
+            /* ***********************************************
+                   NAV trending section STYLING END HERE 
+            ***********************************************       */
+
+            /* ***********************************************
+                    spring collection STYLING start HERE 
+            ***********************************************       */
+.spring__collection{
+    width: 100%;
+    height: 10vh;
+    /* background-color: aqua; */
+}
+.spring__img{
+    width: 95%;
+    /* margin: 0% auto; */
+    margin-left: 2%;
+
+    /* padding: 0%; */
+    height: 75vh;
+    background-image: url('imgaes/image15.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.spring__content{
+    padding: 15% 15%;
+}
+.spring__para1{
+    color: red;
+}
+.spring__h1{
+    margin: 1% 0%;
+    font-size: 40px;
+}
+.spring__para2{
+    font-size: 13px;
+    margin-top: 2%;
+    text-decoration: underline;
+}
+.img__collection{
+    width: 80%;
+    margin: 0% auto;
+    height: 80vh;
+display: flex;
+margin-top: 3%;
+}
+.collection__one{
+background-image: url('imgaes/image8.jpg');
+width: 50%;
+margin-right: 1%;
+height: 50vh;
+}
+.collection__content1{
+    padding: 30% 10% ;
+    color: white;
+}
+.collection__para1{
+font-size: 15px;
+}.collection__h1{
+    font-size: 30px;
+    margin: 2% 0%;
+}
+.collection__para1{
+    font-size: 13px;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-line: underline;
+}
+.collection__two{
+    background-image: url('imgaes/image1.jpg');
+    width: 50%;
+    margin-left:1% ;
+height: 50vh;
+}
+.collection__content2{
+    padding: 30% 5% ;
+    color:black;
+}
+.collection__para3{
+font-size: 15px;
+}
+.collection__h12{
+    font-size: 26px;
+    margin: 2% 0%;
+}
+.collection__para14{
+    font-size: 13px;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-line: underline;
+}
+            /* ***********************************************
+                    spring collection STYLING END HERE 
+            ***********************************************       */
+            /* ***********************************************
+                    limited edition STYLING start HERE 
+            ***********************************************       */
+.limited__edition{
+    width: 100%;
+    height: 50vh;
+
+    /* margin: 0% auto; */
+    margin-top: 60%;
+}
+
+.limited__img{
+    width: 95%;
+    margin: 0% auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+}
+.container__one{
+    width: 25%;
+    height: 40vh;
+}
+.container__one p{
+    font-size: 15px;
+}
+.container__one h1{
+font-size: 20px;
+margin: 2% 0%;    
+}
+.container__two{
+    width: 25%;
+    height: 40vh;
+}
+.container__two p{
+    font-size: 15px;
+}
+.container__two h1{
+font-size: 20px;
+margin: 2% 0%;    
+}
+.container__three{
+    width: 25%;
+    height: 40vh;
+}
+.container__three p{
+    font-size: 15px;
+}
+.container__three h1{
+font-size: 20px;
+margin: 2% 0%;    
+}
+.container__four{
+    width: 25%;
+    height: 40vh;
+}
+.container__four p{
+    font-size: 15px;
+}
+.container__four h1{
+font-size: 20px;
+margin: 2% 0%;    
+}
+            /* *********************************************** 
+                    limited edition STYLING END HERE 
+            ***********************************************       */
+
+.last{
+    width: 90%;
+    margin: 0% auto;
+    margin-top: 10%;
+    height: 40vh;
+    /* background-color: aquamarine; */
+}
+.last__logo img{
+    /* align-items: center; */
+    /* margin: 0% auto; */
+    margin-left: 45%;
+}
+.last__img{
+    margin-left: 6%;
+}
+footer{
+    margin-top: 15%;
+    margin-left: 30%;
+    color: red;
+    text-decoration: underline;
+    
+}
